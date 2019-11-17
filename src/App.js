@@ -8,6 +8,8 @@ import Cart from "./components/Cart/Cart";
 import Navbar from "./components/Navbar";
 import Default from "./components/Default";
 import Modal from './components/Modal';
+import About from './components/About';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <Navbar />
       <Switch>
         <Route exact path="/" component={ProductList}/>
+        <Route path="/about" component={About}/>
+        <Route path="/contact" component={Contact}/>
         <Route path="/details" component={Details}/>
         <Route path="/cart" component={Cart}/>
         <Route component={Default}/>

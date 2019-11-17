@@ -23,7 +23,7 @@ export default class extends Component {
                 value.handleDetail(id)
               }
             >
-              <Link to="/details ">
+              <Link to="/details">
                 <img src={img} alt="product" className="card-img-top" />
               </Link>
               <button
@@ -36,7 +36,7 @@ export default class extends Component {
               >
                 {inCart ? (
                   <p className="text-capitalize mb-0" disabled>
-                    {" "}
+                    
                     in Cart
                   </p>
                 ) : (
@@ -48,7 +48,7 @@ export default class extends Component {
           </ProductConsumer>
 
           {/*card footer */}
-          <div className="card-fooer d-flex justify-content-between">
+          <div className="card-footer d-flex justify-content-between">
             <p className="align-self-center mb-0">{title}</p>
             <h5 className="text-blue font-italic mb-0">
               <span className="mr-1">$</span>
