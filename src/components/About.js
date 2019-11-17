@@ -6,7 +6,7 @@ export default function() {
       <div className="about-container">
       
         <div className="profile-pic">
-          <img src={pic} ></img>
+          <img src={pic} alt="profile-pic"></img>
         
         
         <div>

@@ -7,6 +7,7 @@ export default function() {
   return (
     <ContactWrapper>
       <div className="card">
+        <h1>For any questions please use the links below to contact me.</h1>
           <ButtonContainer>
             <Link className="Links">
           <i className="fab fa-instagram" />
